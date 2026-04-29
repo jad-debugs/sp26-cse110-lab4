@@ -1,0 +1,2 @@
+1. The bug was that the value was taken as a string not an integer, so when it added the values it came out as string concatentation
+2. I would fix this by casting the number we parse to an integer by using Number()
