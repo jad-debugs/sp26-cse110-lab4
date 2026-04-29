@@ -30,3 +30,6 @@
 14 F. true since Boolean(2) leads to value true and these are equal
 15. == is a loose comparison so it can change types and check equality, however === is strict and they must be the same type and value
 16. 
+17. [2, 4, 6 ]The function creates a new array and for every element in the parameter it applies the call back (which multiplies the number 2) and then adds it to the new array and returns that array
+18. 
+19. 1, 4, 3, 2 with lines in between each. This happens because the two with out timeouts are printed first, then the timeout with 0 sec next, and the 1 sec after that
